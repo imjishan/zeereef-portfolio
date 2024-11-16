@@ -3219,7 +3219,7 @@ main.touch .case-intro-image .btn-wrap {
 
 .block-device .overlay-top {
    position: absolute;
-   object-fit: contain;
+   object-fit: cover;
    position: absolute;
    top: 0;
    height: unset;
