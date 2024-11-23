@@ -65,15 +65,15 @@ function initLoaderHome() {
   });
 
   tl.to(".loading-words", {
-		duration: 0.8,
+		duration: 1,
 		opacity: 1,
     y: -50,
     ease: "Power4.easeOut",
-    delay: .5
+    delay: .6
 	});
 
   tl.to(".loading-words .home-active", {
-		duration: .01,
+		duration: .04,
 		opacity: 1,
     stagger: .15,
     ease: "none",
