@@ -359,3 +359,12 @@ td,
 th {
   padding: 0;
 }
+
+
+
+
+.blueorbit {
+  color: #2E2E2E;
+  font-weight: bolder; /* Makes it bolder than normal bold */
+  text-decoration: none; /* Removes the default underline */
+}
