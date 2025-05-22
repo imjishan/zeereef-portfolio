@@ -1879,6 +1879,23 @@ main.touch .main-wrap {
    background: var(--color-white);
 }
 
+/* ------------------------- Blog - Header -------------------------------------------------- */
+
+.default-header.blog-header {
+   background: var(--color-white); /* Or appropriate background */
+   padding-top: 15vh; /* Adjust as needed, similar to other headers */
+   padding-bottom: 10vh; /* Adjust as needed */
+}
+
+#blog .main-wrap .container.medium h1 {
+   font-size: calc(clamp(3.25em, 7vw, 8em) * .875); /* Example from other pages */
+   color: var(--color-dark); /* Example */
+   line-height: .95; /* Consistent with default-header h1 */
+   margin: 0; /* Consistent with default-header h1 */
+   width: 100%; /* Consistent with default-header h1 */
+}
+
+
 /* ------------------------- About - Stripe + Globe -------------------------------------------------- */
 
 .line-globe {
