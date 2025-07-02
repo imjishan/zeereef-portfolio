@@ -1895,6 +1895,94 @@ main.touch .main-wrap {
    width: 100%; /* Consistent with default-header h1 */
 }
 
+/* Blog specific grid and tile styles */
+#blog .work-grid .work-items h4 {
+   font-size: calc(clamp(1.5em, 2.5vw, 2.2em) * .9);
+   line-height: 1.3;
+}
+
+#blog .work-grid .work-items .flex-col:nth-child(1) {
+   width: 45%;
+}
+
+#blog .work-grid .work-items .flex-col:nth-child(2) {
+   width: 20%;
+}
+
+#blog .work-grid .work-items .flex-col:nth-child(3) {
+   width: 15%;
+}
+
+#blog .work-grid .work-items .flex-col:nth-child(4) {
+   width: 20%;
+}
+
+#blog .grid-sub-title .flex-col:nth-child(1) {
+   width: 45%;
+}
+
+#blog .grid-sub-title .flex-col:nth-child(2) {
+   width: 20%;
+}
+
+#blog .grid-sub-title .flex-col:nth-child(3) {
+   width: 15%;
+}
+
+#blog .grid-sub-title .flex-col:nth-child(4) {
+   width: 20%;
+}
+
+#blog .work-tiles ul li a h4 {
+   font-size: calc(clamp(1.5em, 2.5vw, 2.2em) * .8);
+   line-height: 1.4;
+}
+
+/* Blog tile hover effects */
+#blog .work-tiles ul li a:hover .tile-image .overlay-image { 
+   transform: scale(1.02);
+}
+
+@media screen and (max-width: 1024px) {
+   #blog .work-grid .work-items .flex-col:nth-child(1) {
+      width: 50%;
+   }
+   
+   #blog .work-grid .work-items .flex-col:nth-child(2) {
+      width: 50%;
+   }
+   
+   #blog .work-grid .work-items .flex-col:nth-child(3), 
+   #blog .work-grid .work-items .flex-col:nth-child(4) {
+      display: none;
+   }
+   
+   #blog .grid-sub-title .flex-col:nth-child(1) {
+      width: 50%;
+   }
+   
+   #blog .grid-sub-title .flex-col:nth-child(2) {
+      width: 50%;
+   }
+   
+   #blog .grid-sub-title .flex-col:nth-child(3), 
+   #blog .grid-sub-title .flex-col:nth-child(4) {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 720px) {
+   #blog .work-grid .work-items h4 {
+      font-size: calc(clamp(1.5em, 2.5vw, 2.2em) * .85);
+      line-height: 1.25;
+   }
+   
+   #blog .work-tiles ul li a h4 {
+      font-size: calc(clamp(1.5em, 2.5vw, 2.2em) * .75);
+      line-height: 1.3;
+   }
+}
+
 
 /* ------------------------- About - Stripe + Globe -------------------------------------------------- */
 
